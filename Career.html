@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Alvin Heng Engineering and Building Services</title>
+	<style>
+          .container {
+           position: relative;
+           }
+
+         .center {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-size: 50px;
+         font-family:'Noto Sans HK', sans-serif;
+         color:white;
+}
+
+			img { 
+			  width: 100%;
+			  height: auto;
+			  opacity: 0.5;
+			}
+			#footer {	 background-color:grey;
+				color:white;
+				padding:8px;
+				font-size:small;
+				font-style:italic;
+				}
+		input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+         }
+		 
+		   input[type=email], textarea{
+		width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+		 }
+		   input[type=submit]{
+	    width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+		font-weight: bold;
+         }
+		   input[type=reset]{
+	    width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+		font-weight: bold;
+		   }
+		</style>
+		</head>
+    <body>
+		<div class="container">
+		  <img src="Employee photo" alt="Employees" width="1000" height="500">
+		  <div class="center">Contact Us</div>
+		</div>
+        <p style="font-family:Anton, sans-serif;font-style:italic;font-size:20x;">Indicates mandatory fields*</p>
+		<h1 style="font-family:sans-serif;">ALVIN HENG ENGINEERING AND BUILDING SERVICES</h1>
+     
+        <h1 style="font-family:sans-serif;">Career Opportunities</h1>
+		
+			<form action="process1.html" method="post">
+            <label for="myName">*Name:</label><br/>
+			<input type="text" id="myName" name="myName" placeholder="E.g. John Smith" required="required"><br/>
+			<label for="myEmail">*E-mail:</label><br/>
+			<input type="email" id="myEmail" name="myEmail" placeholder="john@abc.com"><br/>
+			<label for="Jobs Vacancy">Jobs available</label><br/>
+			<select>
+			    <option>Sales Manager</option>
+				<option>Plumber</option>
+				<option>Director</option>
+				<option>Electrician</option>
+				<option>Technician</option>
+				<option>LEW</option>
+				<option>Draughtman</option>
+				<option>Accountant</option>
+			</select><br/>
+			<label for="feedback"><strong>Comments/Remarks:</strong></label><br/>
+			<textarea rows="10" cols="40"  id="feedback" name="feedback "placeholder="Comment here..."></textarea><br/>
+            <strong>Attachments if have:</strong><br/>
+            <div class="field">
+                  <div class="file is-right is-info">
+                    <label class="file-label">
+                      <input class="file-input" type="file" name="resume">
+                        <span class="file-cta">
+                         <span class="file-icon">
+                          <i class="fas fa-upload"></i>
+                         </span>
+                        <span class="file-label">…
+                       </span>
+                     </span>
+                   <span class="file-name">
+                 </span>
+               </label>
+            </div>
+          </div>
+	   <br/>
+       <input type="checkbox" required="required"/>
+		     <strong>You have read, understood and agree to be bound by the Alvin Heng Engineering and Building Services' Policy as 
+		     it may be amended from time to time and agree that we may collect, use and disclose your
+			 personal data as provided in this form for the purposes set out in the Alvin Heng Engineering and Building Services'
+			 Protection Policy.Where you are providing us with personal data of another individual, you
+			 warrant that you are authorised to consent to the Alvin Heng Engineering and Building Services' Data Protection Policy and
+			 provide us with such personal data on his/her behalf.</strong><br/>
+       <input type="submit" value="Submit"/><br/>
+	   <input type="reset" value="Reset"/><br/>
+				<p id="footer">&#9400; Copyright 2019 Alvin Heng Engineering And Building Services</p>
+		   </form>
+    </body>
+</html>
